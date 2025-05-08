@@ -1,0 +1,306 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    background-color: #d630c0;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+  }
+  
+  input[type="submit"] {
+    background-color: #d630c0;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #d630c0;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('dörtlüarmoni.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    border-radius: 0 0 20px 20px;
+  }
+  
+  .hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto 30px;
+  }
+  
+  /* Button */
+  .btn {
+    background-color: #d630c0;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+  
+  .btn:hover {
+    background-color: #d630c0;
+  }
+  
+  /* About Section */
+  .about {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  /* Blog Section */
+  .blog {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .post {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+  }
+  
+  .post h3 {
+    color: #d630c0;
+    margin-bottom: 10px;
+  }
+  
+  .author {
+    font-style: italic;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  /* New Sections */
+  .courses, .testimonials, .quick-links {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .courses ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  blockquote {
+    font-style: italic;
+    color: #555;
+    margin: 15px 0;
+    border-left: 3px solid #d630c0;
+    padding-left: 10px;
+  }.contact {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.contact h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.contact form {
+  max-width: 600px;
+  margin: 20px 0;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.contact form label {
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+.contact form input, .contact form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+}
+
+.contact form input[type="submit"] {
+  background-color: #d630c0;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contact form input[type="submit"]:hover {
+  background-color: #d630c0;
+}
+
+.contact .contact-info p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}.contact {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .contact .contact-info p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  }a {
+    color: #0645AD;
+    text-decoration: underline;
+  }
+  a:hover {
+    color: #d630c0;
+  }.workshop {
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .workshop img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .workshop h3 {
+    color: #d630c0;
+    margin-bottom: 5px;
+  }.workshop {
+  margin-bottom: 30px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.workshop img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.workshop h3 {
+  color: #d630c0;
+  margin-bottom: 5px;
+}.social-media {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-media a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.social-media a:hover {
+  text-decoration: underline;
+}
